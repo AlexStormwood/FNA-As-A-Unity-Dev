@@ -27,6 +27,8 @@ The installation steps in this section are not related to making your super awes
    ![](./assets/003_Example_project_OpenInDesktop.png)
 
    Make sure you remember where your new repository is saved on your computer! 
+
+   - It may also be wise to set up a `.gitignore` file in your new game directory - it helps keep the GitHub repository from being too bloated by ignoring specific, unneeded files from the repository's tracking. Make a `.gitignore` file using whatever tool you like, stick it in the repo, and edit it with your favourite text editor to contain the text here as its contents: [https://raw.githubusercontent.com/github/gitignore/main/VisualStudio.gitignore](https://raw.githubusercontent.com/github/gitignore/main/VisualStudio.gitignore)
 8. Using Visual Studio 2022, make a new project. For the sake of using super awesome modern C#, you should make a `Console App` that targets the `.NET 7.0` framework.
 	- You may need to modify your Visual Studio installation if the `Console App` project template is not available. Follow this page, and grab any module that sounds C#-related: https://learn.microsoft.com/en-us/visualstudio/install/modify-visual-studio?view=vs-2022&preserve-view=true#modify-individual-components 
 	- Because we set up our GitHub repository first and cloned it to the computer, we can save our new Visual Studio project directly into the repository folder. If all is correctly configured, Visual Studio should just say "This directory is not empty" - even if it is, because git stores hidden files in the directory even if you have nothing in the repository.
